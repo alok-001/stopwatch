@@ -1,0 +1,52 @@
+body{
+    background-color: skyblue;
+}
+#stop-watch{
+    width: 50%;
+    height: 80%;
+    margin-top:10% ;
+    margin-left: 25%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10%;
+    align: center;
+    box-shadow: 15px 15px lightgrey;
+}
+header{
+    height: 15vh;
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2.7rem;
+}
+.container{
+    height: 300px;
+    width: 100%;
+}
+
+#display{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.buttons{
+    text-align: center;
+}
+button{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 13px;
+    padding: 9px;
+}
+#startstop{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+#startstop:hover{
+    background-color: lightgreen;
+}
+#reset:hover{
+    background-color: lightgreen;
+}
